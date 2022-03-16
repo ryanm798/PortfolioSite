@@ -2188,14 +2188,14 @@ input, select, textarea {
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+			border-radius: 120%;
 			overflow: hidden;
 		}
 
 			.image.avatar img {
-				border-radius: 120%;
+				border-radius: 100%;
 				display: block;
-				width: 120%;
+				width: 100%;
 			}
 
 		.image.main {
@@ -2843,7 +2843,7 @@ input, select, textarea {
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
-		padding: 4em 0 2em 0;
+		padding: 2em 0 0 0;
 	}
 
 		#footer .copyright {

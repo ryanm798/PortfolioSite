@@ -147,8 +147,9 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2.25em;
+		font-size: 2.5em;
 		line-height: 1.5em;
+		color: #4acaa8;
 	}
 
 	h3 {
@@ -2231,7 +2232,7 @@ input, select, textarea {
 		}
 
 		ul li.indent {
-			padding-left: 1em;
+			margin-left: 1em;
 		}
 
 		ul.alt {

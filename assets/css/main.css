@@ -8,16 +8,18 @@
 */
 
 :root {
-	--c1: #dbe4d6; /* main page background */
-	--sidebar-alpha: 50; /* alpha for c1 colors on faint sidebar text and icons*/
+	--c1: #dbe4d6; /* main page background; sidebar text*/
+	--c1-alpha: #dbe4d650; /* (lowered alpha version of prev color) sidebar faint text/icons */
 	--c1-1: #c8d1c4; /* line breaks between sections */
 	--c1-f1: #bfc7b9; /* footer background */
 	--c1-f2: #a3aa9e; /* footer text */
+	--c1-f1-alpha: #a3aa9e80; /* (lowered alpha version of prev color) link underlines */
 	--c2: #84a98c; /* side bar */
 	--c2-1: #8eb697; /* lines between side bar buttons */
 	--c3: #52796f; /* */
 	--c4: #354f52; /* */
 	--c5: #2f3e46; /* text */
+	--c5-alpha: #2f3e4680; /* (lowered alpha version of prev color) link underlines */
 	--c6: #d4d2ac; /* */
 }
 
@@ -124,7 +126,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px var(--c5)80;
+		border-bottom: solid 1px var(--c5-alpha);
 		color: inherit;
 		text-decoration: none;
 	}
@@ -1803,7 +1805,7 @@ input, select, textarea {
 	header.major h2 {
 		color: var(--c2);
 		font-size: 3.5em;
-		margin-bottom: 1.25em;
+		margin-bottom: 1em;
 	}
 
 		header.major h2 + p {
@@ -2723,7 +2725,7 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: var(--c2);
-		color: var(--c2)var(--sidebar-alpha);
+		color: var(--c1-alpha);
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2742,11 +2744,11 @@ input, select, textarea {
 			}
 
 		#header header p {
-			color: var(--c2)var(--sidebar-alpha);
+			color: var(--c1-alpha);
 		}
 
 		#header a {
-			color: var(--c2)var(--sidebar-alpha);
+			color: var(--c1-alpha);
 		}
 
 			#header a:hover {
@@ -2773,7 +2775,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: var(--c2)var(--sidebar-alpha);
+				color: var(--c1-alpha);
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2794,7 +2796,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: var(--c2)var(--sidebar-alpha);
+					color: var(--c1-alpha);
 				}
 
 		#header > nav {
@@ -2868,7 +2870,7 @@ input, select, textarea {
 		padding: 3em 0 1em 0;
 	}
 		#footer a {
-			border-bottom-color: var(--c1-f2)80;
+			border-bottom-color: var(--c1-f2-alpha);
 		}
 
 		#footer .copyright {

@@ -9,12 +9,12 @@
 
 :root {
 	--c1: #ffffff; /* main page background; sidebar text*/
-	--c1-alpha: #ffffff65; /* (lowered alpha version of prev color) sidebar faint text/icons */
+	--c1-alpha: #ffffff80; /* (lowered alpha version of prev color) sidebar faint text/icons */
 	--c1-1: #eeeeee; /* line breaks between sections */
-	--c1-f1: #9093a2; /* footer background */
-	--c1-f2: #747785; /* footer text */
+	--c1-f1: #eeeeee; /* footer background */
+	--c1-f2: #9093a2; /* footer text */
 	--c1-f1-alpha: #9093a260; /* (lowered alpha version of prev color) link underlines */
-	--c2: #89a8b4; /* side bar, accent for section headers */
+	--c2: #8d899b; /* side bar, accent for section headers */
 	--c2-1: #ffffff70; /* lines between side bar buttons */
 	--c3: #9093a2; /* text */
 	--c3-alpha: #9093a260; /* (lowered alpha version of prev color) link underlines */

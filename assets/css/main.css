@@ -16,7 +16,7 @@
 	--c3: #9093a2; /* text */
 	--c3-alpha: #9093a260; /* (lowered alpha version of c3) link underlines */
 	--c4: #bdc7c9; /* top bar (appears on mobile / zoom in) */
-	--c5: #e9d09c; /* feature icons (special bullet points) */
+	--c5: #f5dbb1; /* feature icons (special bullet points) */
 }
 
 html, body, div, span, applet, object,
@@ -2214,7 +2214,7 @@ input, select, textarea {
 				border: 3px solid var(--c1-alpha);
 			}
 
-			.image.avatar img:hover {
+			.image.avatar a:hover {
 				border: 3px solid var(--c1);
 			}
 

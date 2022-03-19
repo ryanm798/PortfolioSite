@@ -16,7 +16,7 @@
 	--c3: #9093a2; /* text */
 	--c3-alpha: #9093a260; /* (lowered alpha version of c3) link underlines */
 	--c4: #bdc7c9; /* top bar (appears on mobile / zoom in) */
-	--c5: #f7e0bd; /* feature icons (special bullet points) */
+	--c5: #5c6560; /* feature icons (special bullet points) #f7e0bd */
 }
 
 html, body, div, span, applet, object,

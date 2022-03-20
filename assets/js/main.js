@@ -11,6 +11,8 @@
 		$header = $('#header'),
 		$titleBar = null,
 		$nav = $('#nav'),
+		$lock = null,
+		$nourl = $('.nourl'),
 		$wrapper = $('#wrapper');
 
 	// Breakpoints.
@@ -80,6 +82,7 @@
 						$this
 							.addClass('active')
 							.addClass('active-locked');
+						$lock = $this;
 
 				})
 				.each(function() {
@@ -109,7 +112,7 @@
 									$section.removeClass('inactive');
 
 								// No locked links? Deactivate all links and activate this section's one.
-									if ($nav_a.filter('.active-locked').length == 0) {
+									if ($lock === null) {
 
 										$nav_a.removeClass('active');
 										$this.addClass('active');
@@ -117,8 +120,11 @@
 									}
 
 								// Otherwise, if this section's link is the one that's locked, unlock it.
-									else if ($this.hasClass('active-locked'))
+									else if ($this.hasClass('active-locked')) {
+
 										$this.removeClass('active-locked');
+										$lock = null;
+									}
 
 							},
 							leave: function() {
@@ -153,7 +159,7 @@
 
 	// Scrolly.
 		$('.scrolly').scrolly({
-			speed: 800,
+			speed: 500,
 			offset: function() {
 
 				if (breakpoints.active('<=medium'))
@@ -162,6 +168,11 @@
 				return 0;
 
 			}
+		});
+
+	// Prevent navigation links from changing url
+		$nourl.click(function( event ) {
+			event.preventDefault();
 		});
 
 })(jQuery);

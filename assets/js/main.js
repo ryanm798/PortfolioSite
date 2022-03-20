@@ -71,6 +71,7 @@
 
 					// Deactivate all links.
 						$nav_a.removeClass('active');
+						$nav_a.removeClass('active-locked');
 
 					// Activate link *and* lock it (so Scrollex doesn't try to activate other links as we're scrolling to this one's section).
 						$this
@@ -102,11 +103,12 @@
 							enter: function() {
 
 								// Activate section.
-									$section.removeClass('inactive');
+									
 
 								// No locked links? Deactivate all links and activate this section's one.
 									if ($nav_a.filter('.active-locked').length == 0) {
 
+										$section.removeClass('inactive');
 										$nav_a.removeClass('active');
 										$this.addClass('active');
 

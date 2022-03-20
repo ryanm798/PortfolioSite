@@ -65,6 +65,9 @@
 
 					var $this = $(this);
 
+						if ($this.hasClass('active-locked'))
+							return;
+
 					// External link? Bail.
 						if ($this.attr('href').charAt(0) != '#')
 							return;
@@ -103,12 +106,11 @@
 							enter: function() {
 
 								// Activate section.
-									
+									$section.removeClass('inactive');
 
 								// No locked links? Deactivate all links and activate this section's one.
 									if ($nav_a.filter('.active-locked').length == 0) {
 
-										$section.removeClass('inactive');
 										$nav_a.removeClass('active');
 										$this.addClass('active');
 
@@ -118,6 +120,10 @@
 									else if ($this.hasClass('active-locked'))
 										$this.removeClass('active-locked');
 
+							},
+							leave: function() {
+								// Deactivate section.
+									$section.addClass('inactive');
 							}
 						});
 
@@ -147,7 +153,7 @@
 
 	// Scrolly.
 		$('.scrolly').scrolly({
-			speed: 1000,
+			speed: 800,
 			offset: function() {
 
 				if (breakpoints.active('<=medium'))

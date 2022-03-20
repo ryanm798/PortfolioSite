@@ -2205,13 +2205,13 @@ input, select, textarea {
 		.image.avatar {
 			border-radius: 100%;
 			overflow: hidden;
+			border: 3px solid var(--c1-alpha);
 		}
 
 			.image.avatar img {
 				border-radius: 100%;
 				display: block;
 				width: 100%;
-				border: 3px solid var(--c1-alpha);
 			}
 
 			.image.avatar a:hover {

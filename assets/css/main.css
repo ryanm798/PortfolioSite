@@ -2729,7 +2729,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: url(images/sidebar.jpg) var(--c4);
+		background: url(/images/sidebar.jpg) var(--c4);
 		background-size: cover;
 		color: var(--c1-alpha);
 		height: 100%;

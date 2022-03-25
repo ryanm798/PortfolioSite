@@ -11,8 +11,6 @@
 		$header = $('#header'),
 		$titleBar = null,
 		$nav = $('#nav'),
-		$lock = null,
-		$nourl = $('.nourl'),
 		$wrapper = $('#wrapper');
 
 	// Breakpoints.
@@ -67,22 +65,17 @@
 
 					var $this = $(this);
 
-						if ($this.hasClass('active-locked'))
-							return;
-
 					// External link? Bail.
 						if ($this.attr('href').charAt(0) != '#')
 							return;
 
 					// Deactivate all links.
 						$nav_a.removeClass('active');
-						$nav_a.removeClass('active-locked');
 
 					// Activate link *and* lock it (so Scrollex doesn't try to activate other links as we're scrolling to this one's section).
 						$this
 							.addClass('active')
 							.addClass('active-locked');
-						$lock = $this;
 
 				})
 				.each(function() {
@@ -112,7 +105,7 @@
 									$section.removeClass('inactive');
 
 								// No locked links? Deactivate all links and activate this section's one.
-									if ($lock === null) {
+									if ($nav_a.filter('.active-locked').length == 0) {
 
 										$nav_a.removeClass('active');
 										$this.addClass('active');
@@ -120,17 +113,9 @@
 									}
 
 								// Otherwise, if this section's link is the one that's locked, unlock it.
-									else if ($this.hasClass('active-locked')) {
-
+									else if ($this.hasClass('active-locked'))
 										$this.removeClass('active-locked');
-										$lock = null;
-										removeHash();
-									}
 
-							},
-							leave: function() {
-								// Deactivate section.
-									$section.addClass('inactive');
 							}
 						});
 
@@ -160,7 +145,7 @@
 
 	// Scrolly.
 		$('.scrolly').scrolly({
-			speed: 1300, // higher = slower
+			speed: 1000,
 			offset: function() {
 
 				if (breakpoints.active('<=medium'))
@@ -170,20 +155,5 @@
 
 			}
 		});
-
-	// Prevent navigation links from changing url
-		$nourl.click(function( event ) {
-			removeHash();
-		});
-
-		function removeHash() {
-			// remove fragment as much as it can go without adding an entry in browser history:
-			window.location.replace("#");
-
-			// slice off the remaining '#' in HTML5:    
-			if (typeof window.history.replaceState == 'function') {
-				history.replaceState({}, '', window.location.href.slice(0, -1));
-			}
-		}
 
 })(jQuery);

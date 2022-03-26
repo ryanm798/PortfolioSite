@@ -11,7 +11,7 @@
 	--c1: #ffffff; /* main page background; sidebar text*/
 	--c1-alpha: #ffffff90; /* (lowered alpha version of c1) sidebar icons */
 	--c1-alpha2: #ffffff65; /* (lowered alpha version of c1) sidebar lines between nav buttons */
-	--c1-alpha3: #ffffffa6; /* (lowered alpha version of c1) sidebar subtitle */
+	--c1-alpha3: #ffffffbd; /* (lowered alpha version of c1) sidebar subtitle */
 	--c1-1: #eeeeee; /* (darker than c1) line breaks between sections */
 	--c2: #bdc7c9; /* accent for section headers */
 	--c3: #9093a2; /* text */

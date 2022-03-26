@@ -1,6 +1,7 @@
 @import url("fontawesome6.1.1-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 /*
 	Read Only by HTML5 UP
@@ -12,7 +13,7 @@
 	--c1: #ffffff; /* main page background; sidebar text*/
 	--c1-alpha: #ffffff90; /* (lowered alpha version of c1) sidebar icons */
 	--c1-alpha2: #ffffff65; /* (lowered alpha version of c1) sidebar lines between nav buttons */
-	--c1-alpha3: #ffffffce; /* (lowered alpha version of c1) sidebar subtitle */
+	--c1-alpha3: #ffffffa1; /* (lowered alpha version of c1) sidebar subtitle */
 	--c1-1: #eeeeee; /* (darker than c1) line breaks between sections */
 	--c2: #bdc7c9; /* accent for section headers */
 	--c3: #9093a2; /* text */
@@ -114,7 +115,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: var(--c3);
-		font-family: "Lato", sans-serif;
+		font-family: "Open Sans", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -2752,8 +2753,8 @@ input, select, textarea {
 			}
 		
 		#header #logo {
-			font-family: "Quicksand", sans-serif;
-			font-weight: 500;
+			font-family: "Manrope", sans-serif;
+			font-weight: 300;
 		}
 
 		#header header p {
@@ -3074,8 +3075,9 @@ input, select, textarea {
 
 				#titleBar .title {
 					color: var(--c1);
+					font-family: 'Manrope', sans-serif;
+					font-weight: 300;
 					display: block;
-					font-weight: 700;
 					height: 44px;
 					line-height: 44px;
 					padding: 0 1em;

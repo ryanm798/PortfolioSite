@@ -2754,7 +2754,7 @@ input, select, textarea {
 		
 		#header #logo {
 			font-family: "Manrope", sans-serif;
-			font-weight: 300;
+			font-weight: 700;
 		}
 
 		#header header p {
@@ -3076,7 +3076,7 @@ input, select, textarea {
 				#titleBar .title {
 					color: var(--c1);
 					font-family: 'Manrope', sans-serif;
-					font-weight: 300;
+					font-weight: 700;
 					display: block;
 					height: 44px;
 					line-height: 44px;

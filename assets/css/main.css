@@ -195,7 +195,13 @@ input, select, textarea {
 		justify-content: space-between;
 		align-items: baseline;
 		width: 100%;
+		margin: 0;
 	}
+
+		div.job-subtitle h5 {
+			font-size: 1em;
+			font-weight: 600;
+		}
 
 	sub {
 		font-size: 0.8em;

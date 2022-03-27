@@ -1812,6 +1812,7 @@ input, select, textarea {
 
 		header.major h2 + p {
 			color: var(--c3);
+			font-family: "Inter", sans-serif;
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
@@ -2753,11 +2754,6 @@ input, select, textarea {
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
 				color: var(--c1);
 			}
-		
-		#header #logo {
-			font-family: "Inter", sans-serif;
-			font-weight: 600;
-		}
 
 		#header header p {
 			color: var(--c1-alpha3);
@@ -2786,13 +2782,15 @@ input, select, textarea {
 			}
 
 			#header > header h1 {
-				font-size: 2em;
+				font-weight: 600;
+				font-size: 2.2em;
+				letter-spacing: -0.1em;
 				margin: 0;
 			}
 
 			#header > header p {
 				color: var(--c1-alpha3);
-				font-style: italic;
+				/* font-style: italic; */
 				margin: 1em 0 0 0;
 			}
 
@@ -3049,7 +3047,7 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				padding: 44px 0 1px 0;
+				padding: 50px 0 1px 0;
 			}
 
 		/* Header Panel */
@@ -3064,7 +3062,7 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				display: block;
-				height: 44px;
+				height: 50px;
 				left: 0;
 				position: fixed;
 				top: 0;
@@ -3077,11 +3075,10 @@ input, select, textarea {
 
 				#titleBar .title {
 					color: var(--c1);
-					font-family: "Inter", sans-serif;
 					font-weight: 600;
 					display: block;
-					height: 44px;
-					line-height: 44px;
+					height: 50px;
+					line-height: 50px;
 					padding: 0 1em;
 					width: 100%;
 					text-align: left;
@@ -3122,8 +3119,8 @@ input, select, textarea {
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
-						height: 44px;
-						line-height: 44px;
+						height: 50px;
+						line-height: 50px;
 						position: absolute;
 						text-align: center;
 						top: 0;

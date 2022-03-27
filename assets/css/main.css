@@ -2757,7 +2757,7 @@ input, select, textarea {
 		top: 0;
 		width: 23em;
 		right: 0;
-		padding: 4vh 0;
+		padding: 1em 0;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2791,8 +2791,8 @@ input, select, textarea {
 
 			#header > header .avatar {
 				display: block;
-				margin: 0 auto 1.5em auto;
-				width: 8em;
+				margin: 0 auto 1.25em auto;
+				width: 10em;
 			}
 
 			#header > header h1 {
@@ -2952,13 +2952,13 @@ input, select, textarea {
 				width: 21em;
 			}
 
-				#header > header {
+				/* #header > header {
 					padding: 2em;
 				}
 
 				#header > footer {
 					padding: 1.5em;
-				}
+				} */
 
 		/* Wrapper */
 
@@ -3058,7 +3058,7 @@ input, select, textarea {
 				#header > footer {
 					bottom: auto;
 					left: auto;
-					margin: 0.5em 0 0 0;
+					/* margin: 0.5em 0 0 0; */
 					position: relative;
 					right: auto;
 					top: auto;
@@ -3258,7 +3258,7 @@ input, select, textarea {
 				right: 0;
 			}
 
-				#header > header {
+				/* #header > header {
 					padding: 2em;
 				}
 
@@ -3277,7 +3277,7 @@ input, select, textarea {
 
 				#header > footer {
 					padding: 1.5em;
-				}
+				} */
 
 		/* Main */
 

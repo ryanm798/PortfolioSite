@@ -2782,7 +2782,7 @@ input, select, textarea {
 
 		#header > header {
 			width: 100%;
-			padding: 0 0.2em;
+			padding: 0 0.5em;
 		}
 
 			#header > header .avatar {
@@ -2811,7 +2811,7 @@ input, select, textarea {
 				}
 
 				#header > header p:not(:first-of-type) {
-					margin-top: -0.05em;
+					margin-top: -0.02em;
 				}
 
 				#header > header p:last-of-type {
@@ -2822,7 +2822,7 @@ input, select, textarea {
 			bottom: 0;
 			left: 0;
 			width: 100%;
-			padding: 0 0.2em;
+			padding: 0 0.5em;
 		}
 
 			#header > footer .icons {

@@ -2803,10 +2803,19 @@ input, select, textarea {
 				font-size: 1.1em;
 				/* font-style: italic; */
 				margin: 0;
+				line-height: 0.95;
 			}
 
 				#header > header p:first-of-type {
-					margin: 1em 0 0 0;
+					margin-top: 0.8em;
+				}
+
+				#header > header p:not(:first-of-type) {
+					margin-top: -0.1em;
+				}
+
+				#header > header p:last-of-type {
+					margin-bottom: 0.8em;
 				}
 
 		#header > footer {

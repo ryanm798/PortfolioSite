@@ -2782,7 +2782,7 @@ input, select, textarea {
 
 		#header > header {
 			width: 100%;
-			padding: 0 0.5em;
+			padding: 0 0.4em;
 		}
 
 			#header > header .avatar {
@@ -2822,7 +2822,7 @@ input, select, textarea {
 			bottom: 0;
 			left: 0;
 			width: 100%;
-			padding: 0 0.5em;
+			padding: 0 0.4em;
 		}
 
 			#header > footer .icons {

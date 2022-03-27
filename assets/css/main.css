@@ -3085,7 +3085,7 @@ input, select, textarea {
 					display: block;
 					height: 60px;
 					line-height: 60px;
-					padding: 0 15px;
+					padding: 0 1em;
 					width: 100%;
 					text-align: left;
 				}

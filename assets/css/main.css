@@ -2757,7 +2757,7 @@ input, select, textarea {
 		top: 0;
 		width: 23em;
 		right: 0;
-		padding: 3em 0;
+		padding: 1em 0;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2786,6 +2786,7 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0; */
 			/* padding: 3em; */
+			width: 100%;
 		}
 
 			#header > header .avatar {

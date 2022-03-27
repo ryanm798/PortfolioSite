@@ -2757,7 +2757,7 @@ input, select, textarea {
 		top: 0;
 		width: 23em;
 		right: 0;
-		padding: 2vh 0;
+		padding: 3em 0;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2832,13 +2832,25 @@ input, select, textarea {
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 			padding: 1em 0;
+
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-flex-direction: column;
+			-webkit-flex-direction: column;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
 		}
 
 			#header > nav ul {
 				list-style: none;
 				margin: 0;
 				padding: 0;
-				height: 100%;
 			}
 
 				#header > nav ul li {

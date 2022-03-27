@@ -3082,7 +3082,7 @@ input, select, textarea {
 					display: block;
 					height: 60px;
 					line-height: 60px;
-					padding: 0 5px;
+					padding: 0 10px;
 					width: 100%;
 					text-align: left;
 				}

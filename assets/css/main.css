@@ -2811,7 +2811,7 @@ input, select, textarea {
 				}
 
 				#header > header p:not(:first-of-type) {
-					margin-top: -0.1em;
+					margin-top: -0.05em;
 				}
 
 				#header > header p:last-of-type {

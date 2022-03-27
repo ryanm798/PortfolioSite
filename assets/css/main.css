@@ -152,6 +152,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: var(--c3);
+		font-family: "Inter", sans-serif;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -2755,7 +2756,7 @@ input, select, textarea {
 		
 		#header #logo {
 			font-family: "Inter", sans-serif;
-			font-weight: 700;
+			font-weight: 600;
 		}
 
 		#header header p {
@@ -3077,7 +3078,7 @@ input, select, textarea {
 				#titleBar .title {
 					color: var(--c1);
 					font-family: "Inter", sans-serif;
-					font-weight: 700;
+					font-weight: 600;
 					display: block;
 					height: 44px;
 					line-height: 44px;

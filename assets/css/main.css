@@ -3256,11 +3256,11 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 18em;
-				-moz-transform: translateX(18em);
-				-webkit-transform: translateX(18em);
-				-ms-transform: translateX(18em);
-				transform: translateX(18em);
+				width: 20em;
+				-moz-transform: translateX(20em);
+				-webkit-transform: translateX(20em);
+				-ms-transform: translateX(20em);
+				transform: translateX(20em);
 				right: 0;
 			}
 
@@ -3326,10 +3326,10 @@ input, select, textarea {
 				} */
 
 			body.header-visible #wrapper, body.header-visible #titleBar {
-				-moz-transform: translateX(-18em);
-				-webkit-transform: translateX(-18em);
-				-ms-transform: translateX(-18em);
-				transform: translateX(-18em);
+				-moz-transform: translateX(-20em);
+				-webkit-transform: translateX(-20em);
+				-ms-transform: translateX(-20em);
+				transform: translateX(-20em);
 			}
 
 	}

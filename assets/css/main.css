@@ -3073,9 +3073,12 @@ input, select, textarea {
 				min-width: 320px;
 			}
 
+				#titleBar > * {
+					font-size: 1.7em;
+				}
+
 				#titleBar .title {
 					font-family: "Inter", sans-serif;
-					font-size: 1.7em;
 					font-weight: 600;
 					letter-spacing: -0.05em;
 					color: var(--c1);

@@ -3282,10 +3282,10 @@ input, select, textarea {
 
 		/* Header Panel */
 
-			#titleBar .toggle {
+			/* #titleBar .toggle {
 				height: 4em;
-				/* width: 6em; */
-			}
+				width: 6em;
+			} */
 
 				/* #titleBar .toggle:before {
 					font-size: 14px;

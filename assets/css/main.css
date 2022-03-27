@@ -2783,8 +2783,8 @@ input, select, textarea {
 
 			#header > header h1 {
 				font-weight: 600;
-				font-size: 2.2em;
-				letter-spacing: -0.1em;
+				font-size: 2.4em;
+				letter-spacing: -0.05em;
 				margin: 0;
 			}
 
@@ -3047,7 +3047,7 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				padding: 50px 0 1px 0;
+				padding: 60px 0 1px 0;
 			}
 
 		/* Header Panel */
@@ -3062,7 +3062,7 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				display: block;
-				height: 50px;
+				height: 60px;
 				left: 0;
 				position: fixed;
 				top: 0;
@@ -3071,14 +3071,16 @@ input, select, textarea {
 				background: var(--c4);
 				color: var(--c1);
 				min-width: 320px;
+				font-size: 2em;
 			}
 
 				#titleBar .title {
+					letter-spacing: -0.05em;
 					color: var(--c1);
 					font-weight: 600;
 					display: block;
-					height: 50px;
-					line-height: 50px;
+					height: 60px;
+					line-height: 60px;
 					padding: 0 1em;
 					width: 100%;
 					text-align: left;
@@ -3119,8 +3121,8 @@ input, select, textarea {
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
-						height: 50px;
-						line-height: 50px;
+						height: 60px;
+						line-height: 60px;
 						position: absolute;
 						text-align: center;
 						top: 0;

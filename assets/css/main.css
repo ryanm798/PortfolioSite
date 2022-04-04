@@ -2495,9 +2495,19 @@ input, select, textarea {
 		height: 3.5rem;
 		width: 3.5rem;
 		border-radius: 100%;
-		background-color: var(--c5);
-		color: var(--c1);
+		background-color: var(--c2);
+		color: var(--c1-alpha);
+
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	}
+
+		ul.icons.circle li a:hover {
+			color: var(--c1) !important;
+			background-color: var(--c5) !important;
+		}
 
 /* Table */
 

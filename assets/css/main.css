@@ -185,6 +185,11 @@ input, select, textarea {
 		line-height: 1.5em;
 	}
 
+		h5.alt-header {
+			font-size: 1em;
+			font-weight: 600;
+		}
+
 	h6 {
 		font-size: 0.7em;
 		line-height: 1.5em;
@@ -2713,7 +2718,7 @@ input, select, textarea {
 		.features article .image {
 			display: inline-block;
 			padding-right: 2.5em;
-			vertical-align: middle;
+			vertical-align: top;
 			width: 48%;
 		}
 
@@ -2731,6 +2736,10 @@ input, select, textarea {
 			.features article .inner > :last-child {
 				margin-bottom: 0;
 			}
+		
+		.features article > div:not(:first-of-type) {
+			margin-top: 1em;
+		}
 
 /* Header */
 

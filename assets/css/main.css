@@ -16,6 +16,7 @@
 	--c1-alpha3: #ffffffa9; /* (lowered alpha version of c1) sidebar subtitle */
 	--c1-1: #eeeeee; /* (darker than c1) line breaks between sections */
 	--c2: #bdc7c9; /* accent for section headers */
+	--c2-1: #c9dbdf; /* (lighter than c2) button highlights */
 	--c3: #7a7d8a; /* text */
 	--c3-alpha: #7a7d8a60; /* (lowered alpha version of c3) link underlines */
 	--c4: #bdc7c9; /* top bar (appears on mobile / zoom in) */
@@ -2496,7 +2497,7 @@ input, select, textarea {
 		width: 3.5rem;
 		border-radius: 100%;
 		background-color: var(--c2);
-		color: var(--c1-alpha);
+		color: var(--c1);
 
 		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -2506,7 +2507,7 @@ input, select, textarea {
 
 		ul.icons.circle li a:hover {
 			color: var(--c1) !important;
-			background-color: var(--c5) !important;
+			background-color: var(--c2-1) !important;
 		}
 
 /* Table */

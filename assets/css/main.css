@@ -2729,8 +2729,8 @@ input, select, textarea {
 
 		.features article .inner {
 			display: inline-block;
-			vertical-align: middle;
-			width: 50%;
+			vertical-align: top;
+			width: auto;
 		}
 
 			.features article .inner > :last-child {
@@ -2738,7 +2738,7 @@ input, select, textarea {
 			}
 		
 		.features article > div:not(:first-of-type) {
-			margin-top: 1em;
+			margin-top: 2em;
 		}
 
 /* Header */

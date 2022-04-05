@@ -2492,12 +2492,13 @@ input, select, textarea {
 		display: inline-flex;
 		justify-content: center;
 		align-items: center;
+		font-size: 1em;
 		height: 3.5rem;
 		width: 3.5rem;
-		font-size: 1em;
 		border-radius: 100%;
 		background-color: var(--c2);
 		color: var(--c1);
+		padding: 0;
 
 		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;

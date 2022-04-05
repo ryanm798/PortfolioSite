@@ -3294,6 +3294,10 @@ input, select, textarea {
 				align-items: flex-start;
 			}
 
+				div.job-subtitle h5 {
+					font-weight: 500;
+				}
+
 		/* Image */
 
 			.image.left {

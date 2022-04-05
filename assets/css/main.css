@@ -2493,8 +2493,8 @@ input, select, textarea {
 		justify-content: center;
 		align-items: center;
 		font-size: 1em;
-		height: 3.5rem;
-		width: 3.5rem;
+		height: 4em;
+		width: 4em;
 		border-radius: 100%;
 		background-color: var(--c2);
 		color: var(--c1);

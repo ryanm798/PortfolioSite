@@ -197,6 +197,7 @@ input, select, textarea {
 
 	div.job-subtitle {
 		display: flex;
+		flex-direction: row;
 		justify-content: space-between;
 		align-items: baseline;
 		width: 100%;
@@ -3280,11 +3281,17 @@ input, select, textarea {
 			}
 
 			h4 {
-				font-size: 1em;
+				font-size: 1.1em;
 			}
 
 			h5.alt-header {
 				font-size: 0.9em;
+			}
+
+			div.job-subtitle {
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: flex-start;
 			}
 
 		/* Image */

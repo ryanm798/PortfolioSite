@@ -2494,6 +2494,7 @@ input, select, textarea {
 		align-items: center;
 		height: 3.5rem;
 		width: 3.5rem;
+		font-size: 1em;
 		border-radius: 100%;
 		background-color: var(--c2);
 		color: var(--c1);

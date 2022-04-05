@@ -2770,6 +2770,17 @@ input, select, textarea {
 			margin-bottom: 1em;
 		}
 
+		.features article > div.article-header {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: flex-start;
+			width: 100%;
+		}
+
 /* Header */
 
 	#header {

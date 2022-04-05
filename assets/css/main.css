@@ -2755,6 +2755,7 @@ input, select, textarea {
 			justify-content: space-between;
 			align-items: flex-start;
 			width: auto;
+			height: 100%;
 			font-size: 1.3em;
 		}
 

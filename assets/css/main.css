@@ -2790,11 +2790,7 @@ input, select, textarea {
 					}
 
 				.features article .inner > div:not(:last-child) {
-					margin-bottom: 0.5em;
-				}
-
-				.features article .inner > div:last-child {
-					margin-bottom: 0.5em;
+					margin-bottom: 1em;
 				}
 
 				.features article .inner h3 {
@@ -3335,12 +3331,9 @@ input, select, textarea {
 						text-align: center;
 					}
 
-					.features article .inner > div:last-child {
-						margin-bottom: 0;
-					}
-
 					.features article .inner h3 {
-						margin-bottom: 0.5em;
+						margin-top: 0.5em;
+						margin-bottom: 0.4em;
 					}
 
 		/* Header */

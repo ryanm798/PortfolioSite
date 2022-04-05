@@ -2793,6 +2793,10 @@ input, select, textarea {
 					margin-bottom: 1em;
 				}
 
+				.features article .inner > div:last-child {
+					margin-bottom: 0.2em;
+				}
+
 				.features article .inner h3 {
 					line-height: 1;
 					margin-bottom: 1em;
@@ -3329,6 +3333,10 @@ input, select, textarea {
 					.features article .inner > div {
 						width: 100%;
 						text-align: center;
+					}
+
+					.features article .inner > div:last-child {
+						margin-bottom: 0;
 					}
 
 					.features article .inner h3 {

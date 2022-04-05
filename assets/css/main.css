@@ -2785,6 +2785,10 @@ input, select, textarea {
 					padding: 0;
 				}
 
+				.features article .inner > div ul {
+					margin: 0;
+				}
+
 /* Header */
 
 	#header {

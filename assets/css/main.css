@@ -2492,9 +2492,9 @@ input, select, textarea {
 		display: inline-flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 1em;
-		height: 3.5em;
-		width: 3.5em;
+		font-size: 1.25em;
+		height: 3.25em;
+		width: 3.25em;
 		border-radius: 100%;
 		background-color: var(--c2);
 		color: var(--c1);

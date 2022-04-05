@@ -21,7 +21,6 @@
 	--c3-alpha: #7a7d8a60; /* (lowered alpha version of c3) link underlines */
 	--c4: #bdc7c9; /* top bar (appears on mobile / zoom in) */
 	--c5: #a6b9af; /* feature icons (special bullet points), link highlight */
-	--c6: #bfdce7;
 }
 
 html, body, div, span, applet, object,
@@ -2491,8 +2490,8 @@ input, select, textarea {
 
 	ul.icons.circle li a {
 		display: inline-flex;
-		align-items: center;
 		justify-content: center;
+		align-items: center;
 		height: 3.5rem;
 		width: 3.5rem;
 		border-radius: 100%;
@@ -2750,8 +2749,11 @@ input, select, textarea {
 			}
 
 		.features article .inner {
-			display: inline-block;
-			vertical-align: top;
+			display: inline-flex;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+			align-items: flex-start;
 			width: auto;
 			font-size: 1.3em;
 		}
@@ -2760,7 +2762,7 @@ input, select, textarea {
 				margin-bottom: 0;
 			}
 		
-		.features article > div:not(:first-of-type) {
+		.features article > div:not(:first-child) {
 			margin-top: 2em;
 		}
 

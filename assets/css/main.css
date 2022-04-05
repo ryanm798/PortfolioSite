@@ -2736,33 +2736,6 @@ input, select, textarea {
 			padding-top: 0;
 		}
 
-		.features article .image {
-			display: inline-block;
-			padding-right: 2.5em;
-			vertical-align: top;
-			width: 60%;
-		}
-
-			.features article .image img {
-				display: block;
-				width: 100%;
-			}
-
-		.features article .inner {
-			display: inline-flex;
-			flex-direction: column;
-			flex-wrap: nowrap;
-			justify-content: space-between;
-			align-items: flex-start;
-			width: auto;
-			height: 100%;
-			font-size: 1.3em;
-		}
-
-			.features article .inner > :last-child {
-				margin-bottom: 0;
-			}
-		
 		.features article > div:not(:first-child) {
 			margin-top: 2em;
 		}
@@ -2782,6 +2755,34 @@ input, select, textarea {
 			align-items: stretch;
 			width: 100%;
 		}
+
+		.features article .image {
+			padding-right: 2.5em;
+			vertical-align: top;
+			width: 60%;
+		}
+
+			.features article .image img {
+				display: block;
+				width: 100%;
+			}
+
+		.features article .inner {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+			align-items: flex-start;
+			width: auto;
+			font-size: 1.3em;
+		}
+
+			.features article .inner > :last-child {
+				margin-bottom: 0;
+			}
 
 /* Header */
 

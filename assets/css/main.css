@@ -2509,7 +2509,7 @@ input, select, textarea {
 
 		ul.icons.circle li a:hover {
 			color: var(--c1) !important;
-			background-color: var(--c2-1) !important;
+			background-color: var(--c5) !important;
 		}
 
 /* Table */

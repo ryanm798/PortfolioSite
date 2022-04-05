@@ -2786,7 +2786,7 @@ input, select, textarea {
 				}
 
 				.features article .inner > div ul {
-					margin: 0;
+					margin-bottom: 1em;
 				}
 
 /* Header */

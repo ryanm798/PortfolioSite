@@ -3268,6 +3268,10 @@ input, select, textarea {
 				font-size: 1em;
 			}
 
+			h5.alt-header {
+				font-size: 0.9em;
+			}
+
 		/* Image */
 
 			.image.left {
@@ -3298,17 +3302,30 @@ input, select, textarea {
 
 		/* Features */
 
-			.features article .image {
+			.features article > div.article-header {
 				display: block;
-				margin: 0 0 2.25em 0;
-				padding-right: 0;
-				width: 100%;
 			}
 
-			.features article .inner {
-				display: block;
-				width: 100%;
-			}
+				.features article .image {
+					display: block;
+					margin: 0 0 2.25em 0;
+					padding-right: 0;
+					width: 100%;
+				}
+
+				.features article .inner {
+					display: block;
+					width: 100%;
+				}
+
+					.features article .inner > div {
+						width: 100%;
+						text-align: center;
+					}
+
+					.features article .inner > div ul {
+						margin-bottom: 0;
+					}
 
 		/* Header */
 

@@ -2785,7 +2785,20 @@ input, select, textarea {
 					padding: 0;
 				}
 
-				.features article .inner > div ul {
+					.features article .inner > div ul {
+						margin: 0;
+					}
+
+				.features article .inner > div:not(:last-child) {
+					margin-bottom: 0.5em;
+				}
+
+				.features article .inner > div:last-child {
+					margin-bottom: 0.5em;
+				}
+
+				.features article .inner h3 {
+					line-height: 1;
 					margin-bottom: 1em;
 				}
 
@@ -3308,7 +3321,6 @@ input, select, textarea {
 
 				.features article .image {
 					display: block;
-					margin: 0 0 2.25em 0;
 					padding-right: 0;
 					width: 100%;
 				}
@@ -3323,8 +3335,12 @@ input, select, textarea {
 						text-align: center;
 					}
 
-					.features article .inner > div ul {
+					.features article .inner > div:last-child {
 						margin-bottom: 0;
+					}
+
+					.features article .inner h3 {
+						margin-bottom: 0.5em;
 					}
 
 		/* Header */

@@ -274,6 +274,23 @@ input, select, textarea {
 		text-align: right;
 	}
 
+/* YouTube Player */
+
+	div.ytplayer {
+		position: relative;
+		padding-top: 56.25%;
+		border-radius: 5px;
+		overflow: hidden;
+	}
+
+	iframe.ytplayer {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
 /* Row */
 
 	.row {

@@ -2819,6 +2819,10 @@ input, select, textarea {
 						padding: 0;
 					}
 
+					.features article .inner > div.article-title h3 {
+						line-height: 1;
+					}
+
 				.features article .inner > div {
 					margin: 0;
 					padding: 0;
@@ -2834,11 +2838,6 @@ input, select, textarea {
 
 				.features article .inner > div:last-child {
 					margin-bottom: 0.2em;
-				}
-
-				.features article .inner h3 {
-					line-height: 1;
-					/* margin-bottom: 1em; */
 				}
 
 /* Header */
@@ -3374,15 +3373,12 @@ input, select, textarea {
 					width: 100%;
 				}
 
-				.features article .inner {
+				.features article .inner,  .features article .inner > div {
 					display: block;
 					width: 100%;
+					height: auto;
+					text-align: center;
 				}
-
-					.features article .inner > div {
-						width: 100%;
-						text-align: center;
-					}
 
 					.features article .inner > div:last-child {
 						margin-bottom: 0;

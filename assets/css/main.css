@@ -2800,6 +2800,19 @@ input, select, textarea {
 				font-size: 1.3em;
 			}
 
+				.features article .inner > div.article-title {
+					display: -moz-flex;
+					display: -webkit-flex;
+					display: -ms-flex;
+					display: flex;
+					flex-direction: column;
+					flex-wrap: nowrap;
+					justify-content: space-between;
+					align-items: flex-start;
+					width: auto;
+					height: 50%;
+				}
+
 				.features article .inner > div {
 					margin: 0;
 					padding: 0;
@@ -2819,7 +2832,7 @@ input, select, textarea {
 
 				.features article .inner h3 {
 					line-height: 1;
-					margin-bottom: 1em;
+					/* margin-bottom: 1em; */
 				}
 
 /* Header */

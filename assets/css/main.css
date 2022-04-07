@@ -2820,6 +2820,7 @@ input, select, textarea {
 
 					.features article .inner > div.article-title h3 {
 						line-height: 1;
+						margin-bottom: 0.4em;
 					}
 
 				.features article .inner > div {
@@ -3383,7 +3384,7 @@ input, select, textarea {
 						margin-bottom: 0;
 					}
 
-					.features article .inner h3 {
+					.features article .inner > div.article-title h3 {
 						margin-top: 0.5em;
 						margin-bottom: 0.4em;
 					}

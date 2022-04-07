@@ -2780,6 +2780,7 @@ input, select, textarea {
 				padding-right: 2.5em;
 				vertical-align: top;
 				width: 60%;
+				flex-shrink: 0;
 			}
 
 				.features article .image img {
@@ -2812,6 +2813,11 @@ input, select, textarea {
 					width: auto;
 					height: 50%;
 				}
+
+					.features article .inner > div.article-title * {
+						margin: 0;
+						padding: 0;
+					}
 
 				.features article .inner > div {
 					margin: 0;

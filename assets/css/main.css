@@ -2810,8 +2810,7 @@ input, select, textarea {
 					flex-wrap: nowrap;
 					justify-content: space-between;
 					align-items: flex-start;
-					width: auto;
-					height: 50%;
+					width: 100%;
 				}
 
 					.features article .inner > div.article-title * {
@@ -3373,7 +3372,7 @@ input, select, textarea {
 					width: 100%;
 				}
 
-				.features article .inner,  .features article .inner > div {
+				.features article .inner,  .features article .inner > div,  .features article .inner > div.article-title {
 					display: block;
 					width: 100%;
 					height: auto;

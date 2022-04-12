@@ -2747,8 +2747,8 @@ input, select, textarea {
 
 	.features article {
 		border-top: solid 3px var(--c1-1);
-		margin-bottom: 3em;
-		padding-top: 3em;
+		margin-bottom: 5em;
+		padding-top: 5em;
 	}
 
 		.features article:first-child {
